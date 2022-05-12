@@ -11,7 +11,7 @@ from sklearn.preprocessing import minmax_scale
 # dir_local = os.getcwd() # path para rodar em máquina local ao invés do colab
 
 def dataset(return_tensor=True):
-    data = pd.read_csv('D:/Andersson.com/Documentos/Doutorado - CIn/2º SEM/DEEP LEARNING/Projeto de DL/IJCNN 2022/Adapted-GRASP-DL-main/Datasets/gas_drift.csv')
+    data = pd.read_csv('Datasets/gas_drift.csv')
     print("Data")
     print(data)
     print(data.shape)
