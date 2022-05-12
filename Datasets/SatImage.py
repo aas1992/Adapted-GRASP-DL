@@ -8,7 +8,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print('Using PyTorch version:', torch.__version__, ' Device:', device)
 
 def dataset(return_tensor=True):
-    data = pd.read_csv('D:/Andersson.com/Documentos/Doutorado - CIn/2º SEM/DEEP LEARNING/Projeto de DL/IJCNN 2022/Adapted-GRASP-DL-main/Datasets/satimage_csv.csv')
+    data = pd.read_csv('Datasets/satimage_csv.csv')
 
     print("Data")
     print(data)
