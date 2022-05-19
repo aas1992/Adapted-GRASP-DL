@@ -260,6 +260,9 @@ def fitness_solution(solution, complete_solutions, input, output, dataset):
 
 
 def local_search(solution, complete_solutions, input, output, dataset, Pmax=10, p=0.5, K=0.03):
+    """
+    A local search of DFNN model hyperparameters
+    """
     print("\nLocal Search:")
     # Initialize
     candidate_List = [None for _ in range(Pmax)]  # Candidate list is create with null values
